@@ -27,7 +27,7 @@ namespace aplicacion1
                     archivo = Console.ReadLine();
                     Console.WriteLine("Ingrese nombre del archivo: ");
                     ar = File.AppendText(Console.ReadLine()+".txt");
-                    ar = File.CreateText();
+                    ar = File.CreateText(@"C: \Users\Raul Santos Ramirez\Desktop\Trabajos de Lourdes\Programacion\zCuarta Unidad");
                     ar.Close();
                 }
                 if (OP == 2)

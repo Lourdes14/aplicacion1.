@@ -24,7 +24,7 @@ namespace aplicacion1
                 {
                     Console.Clear();
                     StreamWriter ar;
-                    archivo = Console.ReadLine();
+                    
                     Console.WriteLine("Ingrese nombre del archivo: ");
                     ar = File.AppendText(Console.ReadLine()+".txt");
                     ar.Close();

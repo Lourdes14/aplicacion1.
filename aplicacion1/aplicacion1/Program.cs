@@ -26,7 +26,7 @@ namespace aplicacion1
                     StreamWriter ar;
                     
                     Console.WriteLine("Ingrese nombre del archivo: ");
-                    ar = File.AppendText(Console.ReadLine()+".txt");
+                    ar = File.CreateText(Console.ReadLine()+".txt");
                     ar.Close();
                 }
                 if (OP == 2)
